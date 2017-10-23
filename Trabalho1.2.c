@@ -2,8 +2,7 @@
 
 void main(void){
 	
-	int cont20, cont50;
-	int valor;
+	int cont20, cont50, valor;
 	
 	cont20 = 0;
 	cont50 = 0;
@@ -14,7 +13,7 @@ void main(void){
 	if (valor > 1000)
 		printf("\nValor maximo de saque permitido R$ 1000.00\n");
 	else
-	if (valor % 2 != 0)
+	if (valor % 2 != 0 || valor == 10 || valor == 30)
 			printf("\nO valor do saque deve ser feito em notas de R$ 20.00 e R$ 50.00\n");
 	else
 		while (valor>0){
