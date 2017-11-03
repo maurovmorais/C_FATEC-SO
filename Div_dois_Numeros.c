@@ -71,7 +71,7 @@ int main(){
 		if(x1==1 || y1==1)
 			z = 'x';
 		else
-			z = ' ';
+			z = '  ';
 		printf("\n   %i | %i| %i |  %c  |\n",cont,x1,y1,z);
 	}
 }
